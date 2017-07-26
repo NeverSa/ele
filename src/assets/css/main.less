@@ -1,0 +1,145 @@
+html, body,p {
+  margin: 0 ;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  vertical-align: baseline;
+  width: 100%;
+
+
+}
+#app{
+  height: 100%;
+}
+html,body{
+  height: 100%;
+}
+a{
+  text-decoration:none;
+}
+
+
+@r:64rem;
+@green:#06a383;
+.weui-cell:before{
+  width: 92%;
+}
+.vux-tab .vux-tab-item{
+  background: none !important;
+}
+.remaketext{
+  color: #dcdcdc;
+  font-size: 14px;
+}
+.greentext{
+  color:@green ;
+}
+  .login-waiper{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    background: url("../../assets/images/login-bg.png") no-repeat;
+    background-size:contain;
+    width: 640/@r;
+    height: 730/@r;
+   .login-form{
+      background: #fff;
+      width: 90%;
+      border-radius: 2px;
+      box-shadow: 0 0 3px rgba(0,0,0,.45);
+       padding-bottom: 45/@r;
+     .bindingdiv{
+        margin-bottom: -70/@r;
+     }
+       .item{
+         margin:20/@r;
+         border-bottom: 1px solid #ededed;
+         padding: 20/@r;
+         display: flex;
+       }
+
+      label{
+         width: 60/@r   ;
+      }
+     input{
+       flex: 1;
+       border:none;
+       font-size: 16px;
+     }
+    }
+   .loginbuttom{
+      display: inline-block;
+      height: 80/@r;
+     width: 320/@r;
+      color: #fff;
+      text-align: center;
+      border-radius: 30/@r;
+      background-color: #5cd3b5;
+     line-height: 80/@r;
+      box-shadow: 0 0 3px rgba(0,0,0,.45);
+      background-image: linear-gradient(to left, #00a685, #76d588);
+     vertical-align: middle;
+    }
+  }
+//客饭预约
+.reserve{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  .submitnav{
+    align-self: flex-end;
+    text-align: center;
+   color: #fff;
+    font-size: 20px;
+    height: 75/@r;
+    display: inline-block;
+    width: 100%;
+    height: 74/@r;
+    line-height: 74/@r;
+    background-color: #fff;
+    background-image: -webkit-linear-gradient(right, #00a685, #76d588);
+    background-image: -moz-linear-gradient(right, #00a685, #76d588);
+    background-image: -o-linear-gradient(right, #00a685, #76d588);
+    background-image: -ms-linear-gradient(right, #00a685, #76d588);
+    background-image: linear-gradient(to left, #00a685, #76d588);
+  }
+}
+
+//净菜预告
+.vegetable{
+  .list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin:0 10px;
+
+    .item{
+      width: 290/@r;
+      margin-bottom: 10px;
+      background: #fff;
+      .lable-content{
+        margin-left: 10/@r;
+        padding-bottom: 10/@r;
+      }
+    }
+  }
+}
+//树形下拉
+.tree{
+ .tree-option{
+   height: 60/@r;
+   background-color: #f3f6f8;
+   line-height: 60/@r;
+   padding: 0 25/@r;
+   display: flex;
+   justify-content: space-between;
+   .option{
+     color: @green;
+   }
+ }
+}
