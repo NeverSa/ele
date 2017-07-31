@@ -5,7 +5,7 @@
        <Vtree v-on:changeOrg="testaa"></Vtree>
 
       <div style="width: 100%">
-        <img src="../assets/images/reservebanner.png" style="max-width: 100%"/>
+        <img src="../assets/img/reservebanner.png" style="max-width: 100%"/>
       </div>
       <group >
         <cell title="预订人：" :value="Name" value-align="left"></cell>
@@ -74,21 +74,5 @@
   }
 </script>
 <style >
-.vux-cell-primary{
-  color: #000 !important;
-}
-body {
-  background: #f3f6f8;
-}
-  .weui-cells{
-    margin: 0 10px;
-    border: 1px solid #D9D9D9;
-    border-radius: 5px;
-  }
-  .vux-cell-box:before{
-   border-top:1px dashed #01a685 !important;
-  }
-.vux-cell-box:before{
-  width: 92% !important;
-}
+
 </style>

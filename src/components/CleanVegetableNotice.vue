@@ -13,25 +13,25 @@
       </div>
     <div class="list">
      <div class="item">
-       <img src="../assets/images/test.jpg" style="width:100%">
+       <img src="../assets/img/test.jpg" style="width:100%">
          <div class="lable-content">菜品名称</div>
         <div class="greentext lable-content"><span style="font-size: 12px;">￥</span><span style="font-size: 16px;">15</span></div>
         <div class="lable-content">出售份数 18</div>
      </div>
       <div class="item">
-        <img src="../assets/images/test.jpg" style="width:100%">
+        <img src="../assets/img/test.jpg" style="width:100%">
         <div class="lable-content">菜品名称</div>
         <div class="greentext lable-content"><span style="font-size: 12px;">￥</span><span style="font-size: 16px;">15</span></div>
         <div class="lable-content">出售份数 18</div>
       </div>
       <div class="item">
-        <img src="../assets/images/test.jpg" style="width:100%">
+        <img src="../assets/img/test.jpg" style="width:100%">
         <div class="lable-content">菜品名称</div>
         <div class="greentext lable-content"><span style="font-size: 12px;">￥</span><span style="font-size: 16px;">15</span></div>
         <div class="lable-content">出售份数 18</div>
       </div>
       <div class="item">
-        <img src="../assets/images/test.jpg" style="width:100%">
+        <img src="../assets/img/test.jpg" style="width:100%">
         <div class="lable-content">菜品名称</div>
         <div class="greentext lable-content"><span style="font-size: 12px;">￥</span><span style="font-size: 16px;">15</span></div>
         <div class="lable-content">出售份数 18</div>

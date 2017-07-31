@@ -24,6 +24,7 @@ a{
 
 @r:64rem;
 @green:#06a383;
+
 .weui-cell:before{
   width: 92%;
 }
@@ -42,7 +43,7 @@ a{
     justify-content: center;
     align-items: flex-end;
     text-align: center;
-    background: url("../../assets/images/login-bg.png") no-repeat;
+    background: url("../img/login-bg.png") no-repeat;
     background-size:contain;
     width: 640/@r;
     height: 730/@r;
@@ -74,12 +75,12 @@ a{
    .loginbuttom{
       display: inline-block;
       height: 80/@r;
-     width: 320/@r;
+      width: 320/@r;
       color: #fff;
       text-align: center;
       border-radius: 30/@r;
       background-color: #5cd3b5;
-     line-height: 80/@r;
+      line-height: 80/@r;
       box-shadow: 0 0 3px rgba(0,0,0,.45);
       background-image: linear-gradient(to left, #00a685, #76d588);
      vertical-align: middle;
@@ -142,4 +143,15 @@ a{
      color: @green;
    }
  }
+}
+
+.nav-ionic{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  .ionic-item{
+    width: 210/@r;
+    text-align: center;
+    margin-top: 50/@r;
+  }
 }
